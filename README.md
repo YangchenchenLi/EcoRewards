@@ -42,6 +42,6 @@ When shopping at the supermarket, users can scan the QR code on the label of eac
 Eco Rewards has released version 1.0, version 2.0 is still _in progress_. 
 
 ## Team
-[Yang Xu](https://github.com/chcxuyang)
+[Yang Xu](https://github.com/chcxuyang) | [Yangchenchen Li](https://github.com/YangchenchenLi)
 
 
