@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E5232B66-4A77-4BA2-8050-C48CFB6A3EAC"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BB61E96C-9649-41F3-80FA-B6F7E08C04B8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Eco Reward/Controllers/RewardViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "RewardViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "BB61E96C-9649-41F3-80FA-B6F7E08C04B8 - cd54e36ce9555f55"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Eco_Reward.RewardViewController.secondView.getter : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "Eco Reward"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxu/Desktop/EcoReward/Eco%20Reward/Controllers/RewardViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "BB61E96C-9649-41F3-80FA-B6F7E08C04B8 - fb6f8c18eea6c761"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Eco_Reward.RewardViewController.secondView.setter : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "Eco Reward"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxu/Desktop/EcoReward/Eco%20Reward/Controllers/RewardViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "BB61E96C-9649-41F3-80FA-B6F7E08C04B8 - 2a8fbcd1007c370d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Eco_Reward.RewardViewController.secondView.modify : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "Eco Reward"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxu/Desktop/EcoReward/Eco%20Reward/Controllers/RewardViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "59">
+               </Location>
+               <Location
+                  uuid = "BB61E96C-9649-41F3-80FA-B6F7E08C04B8 - 3b8b655c319ace6d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Eco_Reward.RewardViewController.secondView.modify : Swift.Optional&lt;__C.UIView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Eco Reward"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxu/Desktop/EcoReward/Eco%20Reward/Controllers/RewardViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "BB61E96C-9649-41F3-80FA-B6F7E08C04B8 - da048725ec27d593"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Eco_Reward.RewardViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Eco_Reward.RewardViewController"
+                  moduleName = "Eco Reward"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxu/Desktop/EcoReward/Eco%20Reward/Controllers/RewardViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "291">
+               </Location>
+               <Location
+                  uuid = "BB61E96C-9649-41F3-80FA-B6F7E08C04B8 - 5de233455272bb94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Eco_Reward.RewardViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Eco_Reward.RewardViewController&gt;"
+                  moduleName = "Eco Reward"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxu/Desktop/EcoReward/Eco%20Reward/Controllers/RewardViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "223">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8DB3742B-4306-4144-9C7A-492277E4C57E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Eco Reward/Controllers/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "setUpElements()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70963C845EB59E754D3B15A2 /* Pods_Eco_Reward.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50D988E1DFD51C52220DB20 /* Pods_Eco_Reward.framework */; };
+		760ED5BB254A0627000DE91E /* RedeemedItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760ED5BA254A0627000DE91E /* RedeemedItemViewController.swift */; };
+		76190CE02536EB98000C6402 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76190CDF2536EB98000C6402 /* AppDelegate.swift */; };
+		76190CE22536EB98000C6402 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76190CE12536EB98000C6402 /* SceneDelegate.swift */; };
+		76190CE42536EB98000C6402 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76190CE32536EB98000C6402 /* MainViewController.swift */; };
+		76190CE72536EB98000C6402 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76190CE52536EB98000C6402 /* Main.storyboard */; };
+		76190CE92536EB99000C6402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76190CE82536EB99000C6402 /* Assets.xcassets */; };
+		76190CFB2536ED87000C6402 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76190CFA2536ED87000C6402 /* LoginViewController.swift */; };
+		76190CFF2536EDA5000C6402 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76190CFE2536EDA5000C6402 /* RegisterViewController.swift */; };
+		76190D022536EE0F000C6402 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76190D012536EE0F000C6402 /* MeViewController.swift */; };
+		76190D082536F7C0000C6402 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76190D072536F7C0000C6402 /* Extensions.swift */; };
+		76190D4B25372D4D000C6402 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76190D4A25372D4D000C6402 /* GoogleService-Info.plist */; };
+		7627B29825419B560040CC6A /* RewardsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7627B29725419B560040CC6A /* RewardsCollectionViewController.swift */; };
+		7627B29B25419BC20040CC6A /* RewardsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7627B29A25419BC20040CC6A /* RewardsCollectionViewCell.swift */; };
+		7627B29E2541AFEC0040CC6A /* FCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7627B29D2541AFEC0040CC6A /* FCollectionReference.swift */; };
+		7627B2A1254257600040CC6A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7627B2A0254257600040CC6A /* Item.swift */; };
+		7627B2A6254291220040CC6A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7627B2A5254291220040CC6A /* Constants.swift */; };
+		7627B2A925431BC50040CC6A /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7627B2A825431BC50040CC6A /* ItemViewController.swift */; };
+		7677DACE253930C000E0A15F /* Mission1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7677DACD253930C000E0A15F /* Mission1View.swift */; };
+		7677DAD1253930EA00E0A15F /* Mission2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7677DAD0253930E900E0A15F /* Mission2View.swift */; };
+		7677DAD42539310A00E0A15F /* Mission3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7677DAD32539310A00E0A15F /* Mission3View.swift */; };
+		7677DADC253931A300E0A15F /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = 7677DADA253931A300E0A15F /* more.png */; };
+		7677DADD253931A300E0A15F /* luck.png in Resources */ = {isa = PBXBuildFile; fileRef = 7677DADB253931A300E0A15F /* luck.png */; };
+		7677DAE02539387200E0A15F /* MissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7677DADF2539387200E0A15F /* MissionViewController.swift */; };
+		7677DAE42539405400E0A15F /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7677DAE32539405400E0A15F /* TestView.swift */; };
+		7677DAE72539510A00E0A15F /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7677DAE62539510A00E0A15F /* background.jpg */; };
+		7677DAF82539CA7600E0A15F /* UserInfoHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7677DAF72539CA7600E0A15F /* UserInfoHeader.swift */; };
+		7677DAFB2539CB2500E0A15F /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7677DAFA2539CB2500E0A15F /* SettingsCell.swift */; };
+		767C9548253C68CC005CB081 /* LeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767C9547253C68CC005CB081 /* LeaderViewModel.swift */; };
+		767C954B253C692E005CB081 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767C954A253C692E005CB081 /* Record.swift */; };
+		767C9552253C6B47005CB081 /* LeaderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767C9551253C6B47005CB081 /* LeaderListView.swift */; };
+		767D2C1E253CAC05005BC623 /* LeaderBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767D2C1D253CAC05005BC623 /* LeaderBoardViewController.swift */; };
+		767D2C21253CAC41005BC623 /* MyJourneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767D2C20253CAC41005BC623 /* MyJourneyViewController.swift */; };
+		767D2C26253CAC65005BC623 /* MyEarningHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767D2C25253CAC65005BC623 /* MyEarningHistoryViewController.swift */; };
+		767D2C2A253CAC7F005BC623 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767D2C29253CAC7F005BC623 /* SettingsViewController.swift */; };
+		767D2C2D253CAC94005BC623 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767D2C2C253CAC94005BC623 /* AboutViewController.swift */; };
+		767D2C34253CBF76005BC623 /* Leader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767D2C33253CBF76005BC623 /* Leader.swift */; };
+		767D2C66253D0358005BC623 /* RecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767D2C65253D0358005BC623 /* RecordViewModel.swift */; };
+		769A5A072549B31D004CA304 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 769A5A062549B31D004CA304 /* LaunchScreen.storyboard */; };
+		769A5A0B2549BB08004CA304 /* EarningListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769A5A0A2549BB08004CA304 /* EarningListView.swift */; };
+		769A5A0E2549BBAB004CA304 /* EarningViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769A5A0D2549BBAB004CA304 /* EarningViewModel.swift */; };
+		769D777F254A683A00BC914C /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769D777E254A683A00BC914C /* ImageCollectionViewCell.swift */; };
+		76A509612538576900457913 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A509602538576900457913 /* DatabaseManager.swift */; };
+		76A5096425385BC900457913 /* LogOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A5096325385BC900457913 /* LogOutViewController.swift */; };
+		76A70F8A253A7BA500109920 /* SettingsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A70F89253A7BA500109920 /* SettingsSection.swift */; };
+		76A70F8E253AC82D00109920 /* RewardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A70F8D253AC82D00109920 /* RewardViewController.swift */; };
+		76A70F97253AD41400109920 /* WebViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A70F94253AD41400109920 /* WebViewCtrl.swift */; };
+		76A70F98253AD41400109920 /* QRscanerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A70F95253AD41400109920 /* QRscanerController.swift */; };
+		76A70F99253AD41400109920 /* TextViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A70F96253AD41400109920 /* TextViewCtrl.swift */; };
+		76A70F9D253BE77500109920 /* background2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 76A70F9C253BE77500109920 /* background2.JPG */; };
+		76AE95242543E81500E5A328 /* ActivatedCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AE95232543E81500E5A328 /* ActivatedCollectionViewController.swift */; };
+		76AE95272543E84F00E5A328 /* ActivatedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AE95262543E84F00E5A328 /* ActivatedCollectionViewCell.swift */; };
+		76AE954A2547146200E5A328 /* QRCodeInfoHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AE95492547146200E5A328 /* QRCodeInfoHandler.swift */; };
+		76AE954E25472F5200E5A328 /* PointsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AE954D25472F5200E5A328 /* PointsHandler.swift */; };
+		76AE95532547682300E5A328 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AE95522547682300E5A328 /* StorageManager.swift */; };
+		76C83DB525408F5D00F61F99 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C83DB425408F5D00F61F99 /* UserViewModel.swift */; };
+		76C83DBC2540974200F61F99 /* UserRank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C83DBB2540974200F61F99 /* UserRank.swift */; };
+		76E8F8E925483A8500C865A7 /* MissionOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E8F8E825483A8500C865A7 /* MissionOneViewController.swift */; };
+		76E8F8F0254843C800C865A7 /* MissionTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E8F8EF254843C800C865A7 /* MissionTwoViewController.swift */; };
+		76E8F8F3254901B500C865A7 /* MissionThreeViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E8F8F2254901B500C865A7 /* MissionThreeViewViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		283F689C4E60787BF447DD43 /* Pods-Eco Reward.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eco Reward.debug.xcconfig"; path = "Target Support Files/Pods-Eco Reward/Pods-Eco Reward.debug.xcconfig"; sourceTree = "<group>"; };
+		5A9C115D3571A4E976046DB0 /* Pods-Eco Reward.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eco Reward.release.xcconfig"; path = "Target Support Files/Pods-Eco Reward/Pods-Eco Reward.release.xcconfig"; sourceTree = "<group>"; };
+		760ED5BA254A0627000DE91E /* RedeemedItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedeemedItemViewController.swift; sourceTree = "<group>"; };
+		76190CDC2536EB98000C6402 /* Eco Reward.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eco Reward.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76190CDF2536EB98000C6402 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76190CE12536EB98000C6402 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		76190CE32536EB98000C6402 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		76190CE62536EB98000C6402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76190CE82536EB99000C6402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76190CED2536EB99000C6402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76190CFA2536ED87000C6402 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		76190CFE2536EDA5000C6402 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		76190D012536EE0F000C6402 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		76190D072536F7C0000C6402 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		76190D4A25372D4D000C6402 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7627B29725419B560040CC6A /* RewardsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsCollectionViewController.swift; sourceTree = "<group>"; };
+		7627B29A25419BC20040CC6A /* RewardsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsCollectionViewCell.swift; sourceTree = "<group>"; };
+		7627B29D2541AFEC0040CC6A /* FCollectionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCollectionReference.swift; sourceTree = "<group>"; };
+		7627B2A0254257600040CC6A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		7627B2A5254291220040CC6A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7627B2A825431BC50040CC6A /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		7677DACD253930C000E0A15F /* Mission1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission1View.swift; sourceTree = "<group>"; };
+		7677DAD0253930E900E0A15F /* Mission2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission2View.swift; sourceTree = "<group>"; };
+		7677DAD32539310A00E0A15F /* Mission3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission3View.swift; sourceTree = "<group>"; };
+		7677DADA253931A300E0A15F /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more.png; sourceTree = "<group>"; };
+		7677DADB253931A300E0A15F /* luck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = luck.png; sourceTree = "<group>"; };
+		7677DADF2539387200E0A15F /* MissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionViewController.swift; sourceTree = "<group>"; };
+		7677DAE32539405400E0A15F /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		7677DAE62539510A00E0A15F /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		7677DAF72539CA7600E0A15F /* UserInfoHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoHeader.swift; sourceTree = "<group>"; };
+		7677DAFA2539CB2500E0A15F /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		767C9547253C68CC005CB081 /* LeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderViewModel.swift; sourceTree = "<group>"; };
+		767C954A253C692E005CB081 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		767C9551253C6B47005CB081 /* LeaderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderListView.swift; sourceTree = "<group>"; };
+		767D2C1D253CAC05005BC623 /* LeaderBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardViewController.swift; sourceTree = "<group>"; };
+		767D2C20253CAC41005BC623 /* MyJourneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJourneyViewController.swift; sourceTree = "<group>"; };
+		767D2C25253CAC65005BC623 /* MyEarningHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEarningHistoryViewController.swift; sourceTree = "<group>"; };
+		767D2C29253CAC7F005BC623 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		767D2C2C253CAC94005BC623 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		767D2C33253CBF76005BC623 /* Leader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leader.swift; sourceTree = "<group>"; };
+		767D2C65253D0358005BC623 /* RecordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewModel.swift; sourceTree = "<group>"; };
+		769A5A062549B31D004CA304 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		769A5A0A2549BB08004CA304 /* EarningListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarningListView.swift; sourceTree = "<group>"; };
+		769A5A0D2549BBAB004CA304 /* EarningViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarningViewModel.swift; sourceTree = "<group>"; };
+		769D777E254A683A00BC914C /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		76A509602538576900457913 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		76A5096325385BC900457913 /* LogOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutViewController.swift; sourceTree = "<group>"; };
+		76A70F89253A7BA500109920 /* SettingsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSection.swift; sourceTree = "<group>"; };
+		76A70F8D253AC82D00109920 /* RewardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardViewController.swift; sourceTree = "<group>"; };
+		76A70F94253AD41400109920 /* WebViewCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewCtrl.swift; sourceTree = "<group>"; };
+		76A70F95253AD41400109920 /* QRscanerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRscanerController.swift; sourceTree = "<group>"; };
+		76A70F96253AD41400109920 /* TextViewCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewCtrl.swift; sourceTree = "<group>"; };
+		76A70F9C253BE77500109920 /* background2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background2.JPG; sourceTree = "<group>"; };
+		76AE95232543E81500E5A328 /* ActivatedCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivatedCollectionViewController.swift; sourceTree = "<group>"; };
+		76AE95262543E84F00E5A328 /* ActivatedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivatedCollectionViewCell.swift; sourceTree = "<group>"; };
+		76AE95492547146200E5A328 /* QRCodeInfoHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeInfoHandler.swift; sourceTree = "<group>"; };
+		76AE954D25472F5200E5A328 /* PointsHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsHandler.swift; sourceTree = "<group>"; };
+		76AE95522547682300E5A328 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		76C83DB425408F5D00F61F99 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		76C83DBB2540974200F61F99 /* UserRank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRank.swift; sourceTree = "<group>"; };
+		76E8F8E825483A8500C865A7 /* MissionOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionOneViewController.swift; sourceTree = "<group>"; };
+		76E8F8EF254843C800C865A7 /* MissionTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionTwoViewController.swift; sourceTree = "<group>"; };
+		76E8F8F2254901B500C865A7 /* MissionThreeViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionThreeViewViewController.swift; sourceTree = "<group>"; };
+		F50D988E1DFD51C52220DB20 /* Pods_Eco_Reward.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eco_Reward.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76190CD92536EB98000C6402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70963C845EB59E754D3B15A2 /* Pods_Eco_Reward.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76190CD32536EB98000C6402 = {
+			isa = PBXGroup;
+			children = (
+				76190CDE2536EB98000C6402 /* Eco Reward */,
+				76190CDD2536EB98000C6402 /* Products */,
+				8C4FF9DD760697860CE95F4D /* Pods */,
+				E724CF0CFC0FFA2E5129C86B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		76190CDD2536EB98000C6402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76190CDC2536EB98000C6402 /* Eco Reward.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76190CDE2536EB98000C6402 /* Eco Reward */ = {
+			isa = PBXGroup;
+			children = (
+				76190CF92536EC98000C6402 /* Storyboards */,
+				76190CF42536EC26000C6402 /* MainControllers */,
+				7677DAC72539303B00E0A15F /* Mission */,
+				7627B295254194FF0040CC6A /* Rewards */,
+				7677DAC22538895000E0A15F /* Me */,
+				76A70F93253AD40300109920 /* Camera */,
+				76190CF82536EC70000C6402 /* Resources */,
+				76190CED2536EB99000C6402 /* Info.plist */,
+				76190D4A25372D4D000C6402 /* GoogleService-Info.plist */,
+				76190CE82536EB99000C6402 /* Assets.xcassets */,
+				76E8F9002549584400C865A7 /* Testing */,
+			);
+			path = "Eco Reward";
+			sourceTree = "<group>";
+		};
+		76190CF42536EC26000C6402 /* MainControllers */ = {
+			isa = PBXGroup;
+			children = (
+				76190D042536EEBE000C6402 /* Login */,
+				76190CE32536EB98000C6402 /* MainViewController.swift */,
+				76190D012536EE0F000C6402 /* MeViewController.swift */,
+				7677DADF2539387200E0A15F /* MissionViewController.swift */,
+				76A70F8D253AC82D00109920 /* RewardViewController.swift */,
+			);
+			path = MainControllers;
+			sourceTree = "<group>";
+		};
+		76190CF72536EC64000C6402 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				767C9547253C68CC005CB081 /* LeaderViewModel.swift */,
+				76C83DB425408F5D00F61F99 /* UserViewModel.swift */,
+				769A5A0D2549BBAB004CA304 /* EarningViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		76190CF82536EC70000C6402 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7677DAD92539317000E0A15F /* pictures */,
+				76190CDF2536EB98000C6402 /* AppDelegate.swift */,
+				76190CE12536EB98000C6402 /* SceneDelegate.swift */,
+				76190D072536F7C0000C6402 /* Extensions.swift */,
+				76AE95492547146200E5A328 /* QRCodeInfoHandler.swift */,
+				76AE954D25472F5200E5A328 /* PointsHandler.swift */,
+				76A509602538576900457913 /* DatabaseManager.swift */,
+				76AE95522547682300E5A328 /* StorageManager.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		76190CF92536EC98000C6402 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				76190CE52536EB98000C6402 /* Main.storyboard */,
+				769A5A062549B31D004CA304 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		76190D042536EEBE000C6402 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				76190CFA2536ED87000C6402 /* LoginViewController.swift */,
+				76190CFE2536EDA5000C6402 /* RegisterViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		7627B295254194FF0040CC6A /* Rewards */ = {
+			isa = PBXGroup;
+			children = (
+				7627B29D2541AFEC0040CC6A /* FCollectionReference.swift */,
+				7627B2A5254291220040CC6A /* Constants.swift */,
+				76AE951D2543E29900E5A328 /* ActivatedTab */,
+				76AE95192543E27700E5A328 /* AvailableTab */,
+				7627B2A0254257600040CC6A /* Item.swift */,
+				7627B2A825431BC50040CC6A /* ItemViewController.swift */,
+				760ED5BA254A0627000DE91E /* RedeemedItemViewController.swift */,
+				769D777E254A683A00BC914C /* ImageCollectionViewCell.swift */,
+			);
+			path = Rewards;
+			sourceTree = "<group>";
+		};
+		7677DAC22538895000E0A15F /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				76E8F8FD254957CB00C865A7 /* Models */,
+				76E8F8FE2549580400C865A7 /* Views */,
+				76190CF72536EC64000C6402 /* ViewModels */,
+				76AE95512547664D00E5A328 /* MyAccount */,
+				767D2C25253CAC65005BC623 /* MyEarningHistoryViewController.swift */,
+				767D2C29253CAC7F005BC623 /* SettingsViewController.swift */,
+				767D2C2C253CAC94005BC623 /* AboutViewController.swift */,
+				76A5096325385BC900457913 /* LogOutViewController.swift */,
+				767D2C1D253CAC05005BC623 /* LeaderBoardViewController.swift */,
+				767D2C20253CAC41005BC623 /* MyJourneyViewController.swift */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		7677DAC72539303B00E0A15F /* Mission */ = {
+			isa = PBXGroup;
+			children = (
+				76E8F8E7254839D200C865A7 /* MissionViewControllers */,
+				7677DACD253930C000E0A15F /* Mission1View.swift */,
+				7677DAD0253930E900E0A15F /* Mission2View.swift */,
+				7677DAD32539310A00E0A15F /* Mission3View.swift */,
+			);
+			path = Mission;
+			sourceTree = "<group>";
+		};
+		7677DAD92539317000E0A15F /* pictures */ = {
+			isa = PBXGroup;
+			children = (
+				76A70F9C253BE77500109920 /* background2.JPG */,
+				7677DAE62539510A00E0A15F /* background.jpg */,
+				7677DADB253931A300E0A15F /* luck.png */,
+				7677DADA253931A300E0A15F /* more.png */,
+			);
+			path = pictures;
+			sourceTree = "<group>";
+		};
+		76A70F93253AD40300109920 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				76A70F95253AD41400109920 /* QRscanerController.swift */,
+				76A70F96253AD41400109920 /* TextViewCtrl.swift */,
+				76A70F94253AD41400109920 /* WebViewCtrl.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		76AE95192543E27700E5A328 /* AvailableTab */ = {
+			isa = PBXGroup;
+			children = (
+				7627B29725419B560040CC6A /* RewardsCollectionViewController.swift */,
+				7627B29A25419BC20040CC6A /* RewardsCollectionViewCell.swift */,
+			);
+			path = AvailableTab;
+			sourceTree = "<group>";
+		};
+		76AE951D2543E29900E5A328 /* ActivatedTab */ = {
+			isa = PBXGroup;
+			children = (
+				76AE95232543E81500E5A328 /* ActivatedCollectionViewController.swift */,
+				76AE95262543E84F00E5A328 /* ActivatedCollectionViewCell.swift */,
+			);
+			path = ActivatedTab;
+			sourceTree = "<group>";
+		};
+		76AE95512547664D00E5A328 /* MyAccount */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MyAccount;
+			sourceTree = "<group>";
+		};
+		76E8F8E7254839D200C865A7 /* MissionViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				76E8F8E825483A8500C865A7 /* MissionOneViewController.swift */,
+				76E8F8EF254843C800C865A7 /* MissionTwoViewController.swift */,
+				76E8F8F2254901B500C865A7 /* MissionThreeViewViewController.swift */,
+			);
+			path = MissionViewControllers;
+			sourceTree = "<group>";
+		};
+		76E8F8FD254957CB00C865A7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				76A70F89253A7BA500109920 /* SettingsSection.swift */,
+				767C954A253C692E005CB081 /* Record.swift */,
+				767D2C33253CBF76005BC623 /* Leader.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		76E8F8FE2549580400C865A7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7677DAF72539CA7600E0A15F /* UserInfoHeader.swift */,
+				7677DAFA2539CB2500E0A15F /* SettingsCell.swift */,
+				767C9551253C6B47005CB081 /* LeaderListView.swift */,
+				769A5A0A2549BB08004CA304 /* EarningListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		76E8F9002549584400C865A7 /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				76C83DBB2540974200F61F99 /* UserRank.swift */,
+				767D2C65253D0358005BC623 /* RecordViewModel.swift */,
+				7677DAE32539405400E0A15F /* TestView.swift */,
+			);
+			path = Testing;
+			sourceTree = "<group>";
+		};
+		8C4FF9DD760697860CE95F4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				283F689C4E60787BF447DD43 /* Pods-Eco Reward.debug.xcconfig */,
+				5A9C115D3571A4E976046DB0 /* Pods-Eco Reward.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E724CF0CFC0FFA2E5129C86B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F50D988E1DFD51C52220DB20 /* Pods_Eco_Reward.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76190CDB2536EB98000C6402 /* Eco Reward */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76190CF02536EB99000C6402 /* Build configuration list for PBXNativeTarget "Eco Reward" */;
+			buildPhases = (
+				A427A7DA5F1CB444FC135A29 /* [CP] Check Pods Manifest.lock */,
+				76190CD82536EB98000C6402 /* Sources */,
+				76190CD92536EB98000C6402 /* Frameworks */,
+				76190CDA2536EB98000C6402 /* Resources */,
+				9AAC9FBC4F3459BA0F0C1C79 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eco Reward";
+			packageProductDependencies = (
+			);
+			productName = "Eco Reward";
+			productReference = 76190CDC2536EB98000C6402 /* Eco Reward.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76190CD42536EB98000C6402 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					76190CDB2536EB98000C6402 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 76190CD72536EB98000C6402 /* Build configuration list for PBXProject "Eco Reward" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76190CD32536EB98000C6402;
+			packageReferences = (
+			);
+			productRefGroup = 76190CDD2536EB98000C6402 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76190CDB2536EB98000C6402 /* Eco Reward */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76190CDA2536EB98000C6402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A70F9D253BE77500109920 /* background2.JPG in Resources */,
+				769A5A072549B31D004CA304 /* LaunchScreen.storyboard in Resources */,
+				7677DADC253931A300E0A15F /* more.png in Resources */,
+				7677DAE72539510A00E0A15F /* background.jpg in Resources */,
+				7677DADD253931A300E0A15F /* luck.png in Resources */,
+				76190D4B25372D4D000C6402 /* GoogleService-Info.plist in Resources */,
+				76190CE92536EB99000C6402 /* Assets.xcassets in Resources */,
+				76190CE72536EB98000C6402 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9AAC9FBC4F3459BA0F0C1C79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eco Reward/Pods-Eco Reward-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eco Reward/Pods-Eco Reward-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eco Reward/Pods-Eco Reward-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A427A7DA5F1CB444FC135A29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eco Reward-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76190CD82536EB98000C6402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769D777F254A683A00BC914C /* ImageCollectionViewCell.swift in Sources */,
+				7627B2A925431BC50040CC6A /* ItemViewController.swift in Sources */,
+				76A509612538576900457913 /* DatabaseManager.swift in Sources */,
+				76190D022536EE0F000C6402 /* MeViewController.swift in Sources */,
+				769A5A0E2549BBAB004CA304 /* EarningViewModel.swift in Sources */,
+				767D2C21253CAC41005BC623 /* MyJourneyViewController.swift in Sources */,
+				76C83DBC2540974200F61F99 /* UserRank.swift in Sources */,
+				7677DAF82539CA7600E0A15F /* UserInfoHeader.swift in Sources */,
+				7627B2A1254257600040CC6A /* Item.swift in Sources */,
+				7677DACE253930C000E0A15F /* Mission1View.swift in Sources */,
+				76AE95242543E81500E5A328 /* ActivatedCollectionViewController.swift in Sources */,
+				7677DAD1253930EA00E0A15F /* Mission2View.swift in Sources */,
+				767D2C2A253CAC7F005BC623 /* SettingsViewController.swift in Sources */,
+				767D2C66253D0358005BC623 /* RecordViewModel.swift in Sources */,
+				7627B2A6254291220040CC6A /* Constants.swift in Sources */,
+				7677DAD42539310A00E0A15F /* Mission3View.swift in Sources */,
+				76A70F97253AD41400109920 /* WebViewCtrl.swift in Sources */,
+				76190CFB2536ED87000C6402 /* LoginViewController.swift in Sources */,
+				76AE95532547682300E5A328 /* StorageManager.swift in Sources */,
+				767C9552253C6B47005CB081 /* LeaderListView.swift in Sources */,
+				76AE95272543E84F00E5A328 /* ActivatedCollectionViewCell.swift in Sources */,
+				7677DAE42539405400E0A15F /* TestView.swift in Sources */,
+				7677DAE02539387200E0A15F /* MissionViewController.swift in Sources */,
+				76AE954A2547146200E5A328 /* QRCodeInfoHandler.swift in Sources */,
+				76E8F8F3254901B500C865A7 /* MissionThreeViewViewController.swift in Sources */,
+				767C954B253C692E005CB081 /* Record.swift in Sources */,
+				7627B29825419B560040CC6A /* RewardsCollectionViewController.swift in Sources */,
+				767D2C1E253CAC05005BC623 /* LeaderBoardViewController.swift in Sources */,
+				767D2C26253CAC65005BC623 /* MyEarningHistoryViewController.swift in Sources */,
+				76A5096425385BC900457913 /* LogOutViewController.swift in Sources */,
+				76A70F8E253AC82D00109920 /* RewardViewController.swift in Sources */,
+				7627B29E2541AFEC0040CC6A /* FCollectionReference.swift in Sources */,
+				76190CFF2536EDA5000C6402 /* RegisterViewController.swift in Sources */,
+				76190CE42536EB98000C6402 /* MainViewController.swift in Sources */,
+				76A70F8A253A7BA500109920 /* SettingsSection.swift in Sources */,
+				76A70F99253AD41400109920 /* TextViewCtrl.swift in Sources */,
+				76C83DB525408F5D00F61F99 /* UserViewModel.swift in Sources */,
+				767D2C2D253CAC94005BC623 /* AboutViewController.swift in Sources */,
+				7677DAFB2539CB2500E0A15F /* SettingsCell.swift in Sources */,
+				760ED5BB254A0627000DE91E /* RedeemedItemViewController.swift in Sources */,
+				7627B29B25419BC20040CC6A /* RewardsCollectionViewCell.swift in Sources */,
+				76190CE02536EB98000C6402 /* AppDelegate.swift in Sources */,
+				769A5A0B2549BB08004CA304 /* EarningListView.swift in Sources */,
+				767D2C34253CBF76005BC623 /* Leader.swift in Sources */,
+				76E8F8F0254843C800C865A7 /* MissionTwoViewController.swift in Sources */,
+				76AE954E25472F5200E5A328 /* PointsHandler.swift in Sources */,
+				76E8F8E925483A8500C865A7 /* MissionOneViewController.swift in Sources */,
+				76190CE22536EB98000C6402 /* SceneDelegate.swift in Sources */,
+				76A70F98253AD41400109920 /* QRscanerController.swift in Sources */,
+				76190D082536F7C0000C6402 /* Extensions.swift in Sources */,
+				767C9548253C68CC005CB081 /* LeaderViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76190CE52536EB98000C6402 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76190CE62536EB98000C6402 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76190CEE2536EB99000C6402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76190CEF2536EB99000C6402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76190CF12536EB99000C6402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 283F689C4E60787BF447DD43 /* Pods-Eco Reward.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7NEY33KN7;
+				INFOPLIST_FILE = "Eco Reward/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Team-Cherry-Pro-Max.Eco-Reward";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		76190CF22536EB99000C6402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A9C115D3571A4E976046DB0 /* Pods-Eco Reward.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7NEY33KN7;
+				INFOPLIST_FILE = "Eco Reward/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Team-Cherry-Pro-Max.Eco-Reward";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76190CD72536EB98000C6402 /* Build configuration list for PBXProject "Eco Reward" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76190CEE2536EB99000C6402 /* Debug */,
+				76190CEF2536EB99000C6402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76190CF02536EB99000C6402 /* Build configuration list for PBXNativeTarget "Eco Reward" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76190CF12536EB99000C6402 /* Debug */,
+				76190CF22536EB99000C6402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76190CD42536EB98000C6402 /* Project object */;
+}
